@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.showHideContainer{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.containerHead{
+  height: 40px;
+  position: relative;
+  background-color: aquamarine;
+}
+
+.imageStyle{
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: transform 500ms;
+}
+
+.iconRotate{
+  transform: rotate(0deg);
+}
+
+.containerBody{
+  height: 0;
+  background-color: azure;
+  transition: height 500ms;
+}
+
+.showContainer{
+  height: 40px;
+}
